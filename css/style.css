@@ -1,4 +1,6 @@
 .continer{width: 1170px;margin: 0 auto}
+
+/*.....................................  Start heder..........................................*/
 .header .navbar {height: 55px;overflow: hidden;background-color: rgb(62, 74, 74);}
 .header .navbar h2 {float: left;font-weight: bold;text-transform: uppercase ;color:#ffc61e;margin-left: 25px;font-size: }
 .header .navbar h2 span {color: #fff;}
@@ -7,57 +9,139 @@
 .header .navbar ul li a{text-decoration: none ;    color: #ddecec;
     font-size: 22px;}
 .header .navbar ul li a:hover{color: #ffc61e;}
-.header .slider{height: 600px;background-image: url(../images/slider1.jpg);background-size: cover;overflow:hidden ;}
-.header .slider .cover{text-align: center;padding: 100px;}
-.header .slider .cover h2{font-family: Arial, Helvetica, sans-serif;
-    color: #ffc61e;
-    font-size: 80px;
-    text-transform: capitalize;}
-.header .slider .cover button {    width: 199px;
+
+
+
+
+.header .slider{height: 600px;overflow:hidden ;}
+
+
+
+
+    #carouselExampleIndicators{
+        background-size: cover;
+        height: 600px;
+    }
+
+    #carouselExampleIndicators img{
+        height: 600px;
+    }
+
+    #carouselExampleIndicators  .carousel-caption{
+        bottom: 181px;
+    }
+
+    #carouselExampleIndicators  .carousel-caption h2{
+        color: #ffc61e;
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-bottom: 40px
+    }
+
+    #carouselExampleIndicators  .carousel-caption button{
+        width: 199px;
     height: 60px;
     border: none;
     font-size: 25px;
     text-transform: capitalize;
     font-weight: bold;
     background-color: #e0ae1b;
-    color:  rgb(62, 74, 74);}
+    color:  rgb(62, 74, 74);
+    }
+ /*.....................................  End heder............................................*/
+    
+/*.....................................  Start cource..........................................*/
 
-
-.course {height: 1098px; background-color: rgb(243, 241, 223);overflow: hidden;}
+.course {height: 1250px; background-color: rgb(243, 241, 223);overflow: hidden;}
 .course .nr p {text-align: center;
     line-height: 2.5;
     margin-bottom: 48px;}
-.course .nr{ width: 50%;float: left;text-align: center;padding-top: 60px;}
+.course .nr{ width: 43%;
+    margin-right: 7%;
+    float: left;
+    text-align: center;
+    padding-top: 40px;}
 .course .nr img{width: 500px;height: 400px;}
-.course .nr h2 {font-size: 51px;font-family: Arial, Helvetica, sans-serif;color:  rgb(106, 132, 80);    margin-top: 64px;
+.course .nr h2 {font-size: 51px;font-family: Arial, Helvetica, sans-serif;color:  rgb(191, 123, 36);    margin-top: 40px;
     margin-bottom: 0;}
 .course .nr button  {width: 200px;height:66px; ;font-size: 18px;
     text-transform: capitalize;font-weight: bold; color: #303a86;
     background-color: #bbc7ff;font-size: 25px;
     border: 1px solid #acd4d4}
+    /*.....................................  End course..........................................*/
 
 
- .iber {background-color: rgb(202, 204, 214);height:1140px;overflow: hidden;padding-bottom: 12%;}
- .iber h2 {text-align: center;color: #414565 ;font-family: Arial, Helvetica, sans-serif;font-weight: bold;font-size: 50px;}
- .iber .im {width: 40%; float: left;text-align: center;padding-top: 60px;    margin-right: 10%;
+
+    /*.....................................  Start mesi..........................................*/
+
+
+ .mesi {background-color: rgb(202, 204, 214);height:1250px;overflow: hidden;padding-bottom: 12%;padding: 40px 0;}
+ .mesi h2 {text-align: center;color: #414565 ;font-family: Arial, Helvetica, sans-serif;font-weight: bold;font-size: 50px;}
+ .mesi .im {width: 40%; float: left;text-align: center;padding-top: 60px;    margin-right: 10%;}
  }
- .iber .im p{text-align: center;line-height: 1.7;font-size: 18px}
- .iber .im h2 {font-size: 30px;font-family: Arial, Helvetica, sans-serif;color:#303a86 ;}
- .iber .im button  {width: 200px;height:66px; ;font-size: 18px;
+ .mesi .im p{text-align: center;line-height: 1.7;font-size: 18px}
+ .mesi .im h2 {font-size: 30px;font-family: Arial, Helvetica, sans-serif;color:#303a86 ;margin-top: 30px}
+ .mesi .im button  {width: 200px;height:66px; ;font-size: 18px;
     text-transform: capitalize;font-weight: bold; color: #303a86;
     background-color: #a7b3e8;font-size: 25px;
     border: 1px solid #acd4d4}
+    /*.....................................  End mesi...........................................*/
 
 
-.par{background-color: rgb(228, 183, 223) ;height: 330px;overflow: hidden;text-align: center}
-.par h2 {font-size: 50px;font-family: Arial, Helvetica, sans-serif;color:rgb(13, 14, 12);}
+    /*.....................................  start rona...........................................*/
+    .rona {background-color: rgb(221, 223, 230);height:700px;overflow: hidden;padding-bottom: 12%;padding: 40px 0;}
+    .rona .im p{text-align: center;line-height: 1.7;font-size: 30px;padding-top: 40px;}
+    .rona h2 {text-align: center;color: #414565 ;font-family: Arial, Helvetica, sans-serif;font-weight: bold;font-size: 50px;}
+    .rona .im { text-align: center;padding-top: 60px;    margin-right: 10%;}
+    .rona .im button  {width: 200px;height:66px; ;font-size: 18px;
+        text-transform: capitalize;font-weight: bold; color: #303a86;
+        background-color: #a7b3e8;font-size: 25px;
+        border: 1px solid #acd4d4}
+/*.....................................  End mesi...........................................*/
+
+
+    /*.....................................  Start inst..........................................*/
+
+
+    .inst {background-color: rgb(143, 207, 223);height:700px;overflow: hidden;padding-bottom: 12%;padding: 40px 0;}
+    .inst h2 {text-align: center;color: #414565 ;font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;font-size: 50px;}
+    .inst .im {width: 40%; float: left;text-align: center;padding-top: 60px;    margin-right: 10%;
+    }
+    .inst .im p{text-align: center;line-height: 1.7;font-size: 18px}
+    .inst .im h2 {font-size: 30px;font-family: Arial, Helvetica, sans-serif;color:#303a86 ;margin-top: 30px}
+    .inst .im button  {width: 200px;height:66px; ;font-size: 18px;
+       text-transform: capitalize;font-weight: bold; color: #303a86;
+       background-color: #a7b3e8;font-size: 25px;
+       border: 1px solid #acd4d4}
+
+
+       /*..................................... End inst...............................................*/
+
+
+
+       /*.....................................  Start par.............................................*/
+
+
+.par{background-color: rgb(228, 183, 223) ;height: 400px;overflow: hidden;text-align: center;padding: 40px 0}
+.par h2 {text-align: center;color: #414565 ;font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;font-size: 50px;margin-bottom: 40px}
 .par button {width: 110px;height:44px;border:2px solid rgb(14, 235, 124) ;font-size: 18p;
     text-transform: capitalize;font-weight: bold;background-color: mediumturquoise}
+.par p {    font-size: 30px;
+    font-style: italic;
+    color: #459696;
+    line-height: 1.7;}
+    /*..................................... End par...............................................*/
 
 
-/**/
+
+    /*.....................................  Start clear..........................................*/
+
+
+
 .clear  {background-color: rgb(224, 207, 222);;overflow: hidden;padding: 40px 0}
-.clear h1 {text-align: center;color: #753f6e;}
+.clear h1 {text-align: center;color: #753f6e;margin-bottom: 50px}
 .clear .style img {width: 40%;float: left;text-align: center;padding-top: 60px;}
 .clear .gen {float:right ;width: 60%;overflow: hidden;}
 .clear .gen .label{float: left;width: 50%;}
@@ -101,8 +185,18 @@
     .clear .style1  {width:30%;float: left;padding-top: 108px;}
 
     .clear .style1  img{width: 100%;height: 254px;}
+
+
+
+    /*.....................................  End clear..........................................*/
+
+
+    /*.....................................  Start rew..........................................*/
+
     
     .rew{overflow: hidden;width: 100%;background-color:#bbb9bb}
     .rew h1{font-family: Arial, Helvetica, sans-serif;font-size: 30px;font-weight: bold
     ;text-align: center}
+
+    /*.....................................  End rew..........................................*/
  
